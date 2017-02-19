@@ -11,7 +11,8 @@ It is primarily intended to be used by MousePaw Games' [Anari][2] project.
 
 ## Dependencies
 
-(None right now.)
+CalikoCat depends on CPGF, Eigen, and PawLIB. See BUILDING.md for more
+information.
 
 ## Building
 

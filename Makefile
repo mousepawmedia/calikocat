@@ -32,7 +32,7 @@ help:
 	@echo "                  in the root of this repository."
 	@echo "  When unspecified, default.config will be used."
 	@echo
-	@echo "For other build options, see the 'make' command in 'docs/', 'calikocat-source/', 'calikocat-tester/', and 'cpgf/build/'."
+	@echo "For other build options, see the 'make' command in 'docs/', 'calikocat-source/', and 'calikocat-tester/'."
 
 clean:
 	$(MAKE) clean -C calikocat-source

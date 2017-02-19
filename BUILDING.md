@@ -12,6 +12,18 @@ on another system, you can interact with CMake directly.
 Currently, CalikoCat is only designed to be built by GCC (5.3 or later) or
 Clang (3.4 or later).
 
+## Building and Linking Dependencies
+
+CalikoCat relies on CPGF, PawLIB, and Eigen. The default behavior of the build
+system is to look for MousePaw Games' `libdeps/` and `pawlib/` repositories,
+cloned parallel to this repository's main folder. Simply run `make ready` in
+each of those repositories before building this one. (This is our default for
+company development environments.)
+
+You can specify custom paths for these libraries by creating a ".config" file
+in the root of this repository. Make a copy of "build.config.txt" and save it
+with the ending ".config". See that file for more information.
+
 ## Ready-To-Use Build
 
 If you just want to build CalikoCat to use in your own project, the fastest way

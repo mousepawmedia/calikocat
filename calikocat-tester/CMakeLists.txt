@@ -83,7 +83,7 @@ include_directories(${CPGF_DIR}/include)
 include_directories(${EIGEN_DIR}/include)
 include_directories(${PAWLIB_DIR}/include)
 
-add_executable(calikocat-tester
+add_executable(${TARGET_NAME}
     main.cpp
 )
 

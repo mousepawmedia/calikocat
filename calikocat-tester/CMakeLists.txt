@@ -78,19 +78,19 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/../../bin/$<CONF
 include_directories(include)
 
 # Include headers of dependencies.
+include_directories(../calikocat-source/include)
 include_directories(${CPGF_DIR}/include)
 include_directories(${EIGEN_DIR}/include)
 include_directories(${PAWLIB_DIR}/include)
-include_directories(../calikocat-source/include)
 
 add_executable(calikocat-tester
     main.cpp
 )
 
 # Link against dependencies.
-target_link_libraries(${TARGET_NAME} ${CPGF_DIR}/lib/libcpgf.a)
-target_link_libraries(${TARGET_NAME} ${PAWLIB_DIR}/lib/libpawlib.a)
 target_link_libraries(${TARGET_NAME} ${CMAKE_HOME_DIRECTORY}/../calikocat-source/lib/$<CONFIG>/libcalikocat.a)
+target_link_libraries(${TARGET_NAME} ${PAWLIB_DIR}/lib/libpawlib.a)
+target_link_libraries(${TARGET_NAME} ${CPGF_DIR}/lib/libcpgf.a)
 
 if(COMPILERTYPE STREQUAL "clang")
     if(SAN STREQUAL "address")

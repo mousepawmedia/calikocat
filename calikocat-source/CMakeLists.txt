@@ -78,9 +78,9 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/../../lib/$<CONF
 include_directories(include)
 
 # Include headers of dependencies.
+include_directories(${PAWLIB_DIR}/include)
 include_directories(${CPGF_DIR}/include)
 include_directories(${EIGEN_DIR}/include)
-include_directories(${PAWLIB_DIR}/include)
 
 add_library(${TARGET_NAME} STATIC
     include/calikocat/dummy.hpp
@@ -88,8 +88,8 @@ add_library(${TARGET_NAME} STATIC
 )
 
 # Link against dependencies.
-target_link_libraries(${TARGET_NAME} ${CPGF_DIR}/lib/libcpgf.a)
 target_link_libraries(${TARGET_NAME} ${PAWLIB_DIR}/lib/libpawlib.a)
+target_link_libraries(${TARGET_NAME} ${CPGF_DIR}/lib/libcpgf.a)
 
 if(COMPILERTYPE STREQUAL "clang")
     if(SAN STREQUAL "address")

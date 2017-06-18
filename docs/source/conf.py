@@ -49,8 +49,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'CalikoCat'
-copyright = '2017, MousePaw Games'
-author = 'MousePaw Games'
+copyright = '2017, MousePaw Media'
+author = 'MousePaw Media'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -226,7 +226,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'CalikoCat.tex', 'CalikoCat Documentation',
-     'MousePaw Games', 'manual'),
+     'MousePaw Media', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

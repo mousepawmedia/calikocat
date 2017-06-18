@@ -3,7 +3,7 @@
 **CalikoCat** is a C++ implementation of the FABRIK inverse kinematics
 algorithm, based on [Caliko][1].
 
-It is primarily intended to be used by MousePaw Games' [Anari][2] project.
+It is primarily intended to be used by MousePaw Media's [Anari][2] project.
 
 ## Authors
 
@@ -29,17 +29,17 @@ If you would like to contribute code, please read our
 [Contribution Guide][4].
 
 All contributions are licensed to us under the
-[MousePaw Games Terms of Development][5].
+[MousePaw Media Terms of Development][5].
 
 ## License
 
-PawLIB is licensed under the BSD-3 License. (See LICENSE.md)
+CalikoCat is licensed under the BSD-3 License. (See LICENSE.md)
 
-The project is owned and maintained by [MousePaw Games][3].
+The project is owned and maintained by [MousePaw Media][3].
 
 [1]: https://github.com/feduni/caliko
-[2]: http://www.mousepawgames.com/anari
-[3]: http://www.mousepawgames.com/opensource
-[4]: http://www.mousepawgames.com/opensource#contribute
-[5]: http://www.mousepawgames.com/termsofdevelopment
-[6]: http://github.com/mousepawgames/anari
+[2]: http://www.mousepawmedia.com/calikocat
+[3]: https://www.mousepawmedia.com/developers
+[4]: https://www.mousepawmedia.com/developers/contributing
+[5]: https://www.mousepawmedia.com/termsofdevelopment
+[6]: https://github.com/mousepawmedia/calikocat

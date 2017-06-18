@@ -15,7 +15,7 @@ Clang (3.4 or later).
 ## Building and Linking Dependencies
 
 CalikoCat relies on CPGF, PawLIB, and Eigen. The default behavior of the build
-system is to look for MousePaw Games' `libdeps/` and `pawlib/` repositories,
+system is to look for MousePaw Media' `libdeps/` and `pawlib/` repositories,
 cloned parallel to this repository's main folder. Simply run `make ready` in
 each of those repositories before building this one. (This is our default for
 company development environments.)

@@ -8,7 +8,7 @@
   */
 
 /* LICENSE
- * Copyright (c) 2016 MousePaw Games.
+ * Copyright (c) 2016 MousePaw Media.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -38,7 +38,7 @@
  * THE POSSIBILITY OF SUCH DAMAGE.
  *
  * CONTRIBUTING
- * See http://www.mousepawgames.com/participate/opensource for information
+ * See https://www.mousepawmedia.com/developers/contributing for information
  * on how to contribute to our projects.
  */
 

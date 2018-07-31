@@ -16,3 +16,4 @@ tester
 tester_debug
 *.config
 !default.config
+codealike.json

@@ -1,6 +1,10 @@
 *.a
 *.o
 *.exe
+.env
+.pk
+.pem
+.pub
 *.depend
 *.layout
 **/bin

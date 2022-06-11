@@ -3,6 +3,10 @@
 	"phabricator.uri" : "https://phab.mousepawmedia.com",
 	"repository.callsign" : "CC",
 	"load" : [
-		".arclibs/cppcheck"
-	]
+		".arclibs/cppcheck",
+		"clang-format-linter"
+	],
+	"phutil_libraries": [
+   		 ".arclib"
+        ]
 }
